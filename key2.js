@@ -182,6 +182,7 @@ var later="";
 //     }
 // }
 // ****************************************************
+
 // function rightchar(kkey)
 // {
 //     // document.getElementById(kkey.toLowerCase()).removeAttribute('class','red');/
