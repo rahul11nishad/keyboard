@@ -1,0 +1,394 @@
+
+/* html
+{
+    scroll-behavior: smooth;
+} */
+/* body
+{
+   
+    margin-top: 0em;
+    text-align: center;
+    background-color: rgb(255,0255, 0255);
+} */
+/* button
+{
+    margin:0.08em;
+    width:4em;
+    height: 4em;
+    border-radius: 0.75mm;
+    padding: 5px 10px;
+    color:rgb(111, 50, 255);
+    border: 1px solid royalblue;
+    font-size: 4ch;
+} */
+/* button:hover
+{
+    background-color:coral;
+    color: cornsilk;
+} */
+/* button
+{
+    font-size: 4ch;
+} */
+/* .top
+{
+    font-size:2ch;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin:0.2em;
+} */
+/* .buttom
+{
+    margin-bottom:0.2em;
+    text-align: center;
+    bottom: 0.2em;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2ch;
+} */
+/* .box
+{
+    border: 0.5em solid royalblue;
+} */
+/* .kk
+{
+    grid-template-columns:auto auto;
+    display:flex;
+    margin: auto;
+    flex-flow: row;
+} */
+/* .l
+{
+    transition-delay: 0ms;
+} */
+/* .set
+{
+    top: 2em;
+    margin:auto;
+    position:-webkit-sticky;
+    position: relative;
+    animation-name: top-to-bottom;
+    animation-duration: 2s;
+    animation-timing-function:cubic-bezier(0, 0, 0.28, 1.23);
+} */
+/* @keyframes top-to-bottom
+{
+    from{top:-10em;}
+    to{top:2em}
+    0%{transform: translateY(-500px);}   
+    100%{transform: translateY(0px);}
+} */
+/* #p
+{
+    text-align: left;
+    width: 800px;
+    position:absolute;
+    height:174px;
+    overflow: hidden;
+    margin: auto;
+
+    margin-top: 150px;
+    white-space:normal; 
+    margin-left:auto;
+} */
+    /* padding-left: 50px;
+}
+/* .font
+{
+    font-size: 50px;
+    color: dodgerblue;  
+} */
+
+/* #section
+{
+    
+    text-align:left;
+    position: relative;
+    margin-left: 14.5em;
+    margin-top: 5em;
+    overflow: hidden;
+    width:70em;
+    height:15em;
+}
+p
+{
+    display:inline;
+}
+#pra
+{
+    display: inline;
+    font-family: 'Inconsolata', monospace;
+    animation-name: sco;
+    animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    animation-duration: .5s;
+    position: relative;
+    top: 0em;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+    color:rgb(79, 89, 92);
+    font-size: 3em;
+}
+@keyframes sco
+{
+    from{top:20em;}
+    to{top: 0em;}
+} */
+/* #div
+{
+    animation-name: sco;
+    animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    animation-duration: .5s;
+    position: relative;
+    white-space:nowrap;
+    word-break:break-all;
+    top: 0px;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+    color:rgb(79, 89, 92);
+    margin-top: 200px;
+    overflow: hidden;
+    width: 800px;
+    height: 174px;
+    font-size: 50px;
+    margin: auto;
+    align-items: center;
+    text-align: left;
+} */
+/* @keyframes sco
+{
+    from{top: 500px;}
+    to{top: 0px;}
+} */
+/* font,span
+{
+    white-space: normal;
+    color:rgb(168, 165, 162);
+    width: 10px;
+    height:20px;
+    font-size: 50px;
+    padding: 1px;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 0.5mm;
+   
+} */
+
+/* #h
+{
+    margin: auto;
+    align-items: center;
+    text-align: left;
+    scroll-behavior: smooth;
+    position: relative;
+    margin-top: 150px;
+    overflow: hidden;
+    width: 800px;
+    height: 174px;
+} */
+
+/* .left
+{
+    margin-top: 2em;
+    text-align: left;
+} */
+/* .right
+{
+    margin-top: 3em;
+    text-align: right;
+    
+} */
+/* #id
+{
+    font-size:4ch;
+}
+  */
+
+/* another css style   */
+body
+{
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+html
+{
+    scroll-behavior:smooth;
+}
+#section
+{
+    text-align:left;
+    /* position: relative; */
+    /* margin-left: 13.4em; */
+    /* margin-top: 5em; */
+    overflow: hidden;
+    width:69em;
+    height:15em;
+}
+p
+{
+   padding:-0ch;
+   margin: 0.5ch;
+}
+#pra
+{
+    /* display: inline;  */
+    font-family: 'Inconsolata', monospace;
+    animation-name: sco;
+    animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    animation-duration: .5s;
+    position:relative;
+    top: 0em;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+    color:rgb(79, 89, 92);
+    font-size: 3em;
+}
+@keyframes sco
+{
+    from{top:20em;}
+    to{top: 0em;}
+}
+.container
+{
+    position:relative;
+    animation-name: scrol;
+    animation-timing-function:cubic-bezier(0, 0, 0.28, 1.23);
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    width: 80ch;
+    border: none;
+    /* margin: 5ch; */
+    /* margin-left:26ch; */
+}
+@keyframes scrol 
+{
+    from{top:-30ch;}
+    to{top:0ch}
+}
+
+.container .line-container
+{
+    display:inline-flex;
+    flex-flow: row;
+}
+.line-container button
+{
+    margin:0.2ch;
+    width: 8ch;
+    height: 8ch;
+    font-size: 0.8em;
+    border: solid 0.05ch rgb(32, 119, 218);
+    color: rgb(32, 119, 218);
+}
+.sup
+{
+    font-size:2ch;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 1ch;
+}
+.sub
+{
+    font-size: 2ch;
+    margin-bottom :1ch;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+button
+{
+    background-color: darkslategray;
+    border-radius: 2mm;
+    /* color:dodgerblue;
+    background-color:white; */
+}
+button:hover
+{
+    color: white;
+    background-color: rgba(30, 143, 255, 0.561);
+}
+.area
+{
+    width: 55em;
+    height: 20em;
+    position:relative;
+    margin: auto;
+    border: none;
+    border-radius: 1ex;
+    box-shadow: 0ex 0ex 1ex 0ex;
+    background-image: linear-gradient(to bottom,dodgerblue,white);
+}
+font
+{
+    font-size:2ch;
+    border-radius: 1mm;
+}
+hr
+{
+    /* margin-left:14em ; */
+    background-color: darkturquoise;
+}
+.red
+{
+    animation-name: rr;
+    /* animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+    animation-duration: 200ms;
+    animation-iteration-count: 1;
+}
+@keyframes rr 
+{
+    from{background-color:rgb(248, 11, 11);}
+    to{background-color: white;}
+}
+.tee
+{
+    background-color:rgb(70, 110, 124);
+}
+
+.boderbottom
+{
+    border-bottom:3px rgb(60, 109, 255) solid ;
+}
+#side
+{
+    background-color: rgb(167, 198, 255);
+    width: 20ch;
+    height: 40em;
+    
+}
+.layout
+{
+    display: grid;
+    grid-template-columns:250px auto;
+    grid-template-rows:116%;
+    row-gap: 1ch;
+    column-gap: 2px;
+}
+.box1
+{
+    /* background-color; */
+    /* width: 13.5em;
+    height: 45em; */
+    /* background-color: rgb(73, 45, 45); */
+    border-radius: 3mm;
+}
+.box1 h1
+{
+    color: deeppink;
+    text-align: center;
+}
+.box2
+{
+    border-radius: 3mm;
+    background-color: darkslategray;
+    /* width: 500px; */
+    /* height: 45em; */
+}
+/* .wpm
+{
+    background-color: rgb(235, 173, 150);
+    border-radius: 3mm;
+    color: cornflowerblue;
+    font-size: 15px;
+    padding: 5px;
+    width:5em;
+    text-align: center;
+    height: 25em;
+} */

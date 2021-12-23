@@ -1,0 +1,61 @@
+head
+{
+    background-color: deepskyblue;
+    height: 200px;
+    width: auto;
+}
+div
+{
+    margin: auto;
+    text-align:left;
+    scroll-behavior: smooth;
+    position: relative;
+    margin-top: 150px;
+    overflow: hidden;
+    width: 800px;
+    height: 174px;
+}
+#up
+{
+    font-family: 'Inconsolata', monospace;
+    animation-name: sco;
+    animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    animation-duration: .5s;
+    position: absolute;
+    top: 0px;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+    color:rgb(79, 89, 92);
+    font-size: 50px;
+}
+#down
+{
+    animation-name: sco;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    align-items: center;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    position: absolute;
+    top: 300px;
+    color: deeppink;
+    font-size:10ch ;
+}
+@keyframes sco
+{
+    from{top: 500px;}
+    to{top: 0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
