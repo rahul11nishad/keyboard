@@ -120,7 +120,8 @@ font
 hr
 {
     /* margin-left:14em ; */
-    background-color: darkturquoise;
+    border-color:dodgerblue;
+   
 }
 .red
 {
@@ -178,14 +179,3 @@ hr
     /* width: 500px; */
     /* height: 45em; */
 }
-/* .wpm
-{
-    background-color: rgb(235, 173, 150);
-    border-radius: 3mm;
-    color: cornflowerblue;
-    font-size: 15px;
-    padding: 5px;
-    width:5em;
-    text-align: center;
-    height: 25em;
-} */
